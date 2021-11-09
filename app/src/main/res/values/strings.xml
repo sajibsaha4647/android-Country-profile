@@ -22,4 +22,10 @@
         Which thing is famous in Pakistan?Image result for about pakistan You may be wondering, “what is Pakistan known for?” Well, Pakistan is known for its rich culture, ancient heritage, and diverse cuisine. It is famous for its mangoes and chai, the Karakoram Highway, Mohenjo Daro and K2 Mountain, and the famed Pakistani hospitality.
         Which thing is famous in Pakistan?Image result for about pakistan You may be wondering, “what is Pakistan known for?” Well, Pakistan is known for its rich culture, ancient heritage, and diverse cuisine. It is famous for its mangoes and chai, the Karakoram Highway, Mohenjo Daro and K2 Mountain, and the famed Pakistani hospitality.
     </string>
+    <string name="alert_title">
+        Do you wants to exit
+    </string>
+    <string name="alert_message">
+        app will close do you wants ?
+    </string>
 </resources>

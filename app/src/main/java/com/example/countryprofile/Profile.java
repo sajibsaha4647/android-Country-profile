@@ -18,7 +18,6 @@ public class Profile extends AppCompatActivity {
 
         imageone = findViewById(R.id.imageone);
         textone = findViewById(R.id.textone);
-
         Bundle bundle = getIntent().getExtras();
         if(bundle != null){
             String Countryname = bundle.getString("name");

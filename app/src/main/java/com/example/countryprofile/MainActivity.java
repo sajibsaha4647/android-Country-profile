@@ -1,7 +1,9 @@
 package com.example.countryprofile;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -49,5 +51,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
 
+    }
+
+    @Override
+    public void onBackPressed() {
+//        super.onBackPressed();
+        AlertDialog alertDialogBuilder  = new AlertDialog.Builder(this).setIcon(R.drawable.image1)
+        .setTitle(R.string.alert_title)
+        .setMessage(R.string.alert_message)
+       .setCancelable(false)
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finish();
+            }
+        }).setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+               dialog.cancel();
+            }
+        }).show();
     }
 }
